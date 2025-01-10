@@ -140,9 +140,9 @@ h1 {
   width: 100%;
   text-align: center;
   background-image: url("Images/spaceman3.jpg");
-  background-size: cover; /* För att bilden ska täcka hela bakgrunden */
-  background-position: center; /* För att centrera bilden */
-  background-repeat: no-repeat; /* För att inte upprepa bilden */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 
   -webkit-mask-image: linear-gradient(
     to top,
@@ -200,16 +200,16 @@ label.active {
     175,
     247,
     0.53
-  ); /* Samma bakgrundsfärg som hover */
-  /* Vi kan även använda andra stilar för den aktiva knappen, t.ex. färgändring */
-  border-color: rgb(180, 130, 200); /* Valfri färg för kanten */
+  ); 
+  
+  border-color: rgb(180, 130, 200); 
 }
 
 .container-img {
   display: flex;
-  justify-content: center; /* Centrerar korten horisontellt */
+  justify-content: center; 
 
-  flex-wrap: wrap; /* Gör att korten radbryts om de inte får plats */
+  flex-wrap: wrap; 
   min-height: 100vh;
 }
 
